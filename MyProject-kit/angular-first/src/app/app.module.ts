@@ -3,11 +3,12 @@ import {FormsModule} from '@angular/forms';
 import {CommonModule} from '@angular/common';
 import {BrowserModule} from '@angular/platform-browser';
 import {AppComponent} from './app.component';
+import {ProductListComponent} from './product/product-list.component';
 
 @NgModule({
     imports: [BrowserModule, FormsModule, CommonModule],
     exports: [],
-    declarations: [AppComponent],
+    declarations: [AppComponent,ProductListComponent],
     providers: [],
     bootstrap:[AppComponent]
 })
